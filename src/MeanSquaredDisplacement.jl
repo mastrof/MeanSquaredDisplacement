@@ -73,7 +73,4 @@ function imsd(x::AbstractVector, lags=0:size(x,1)-1)
     @. S₁ - 2S₂
 end
 
-
-include("unfold.jl")
-
 end # module MeanSquaredDisplacement
